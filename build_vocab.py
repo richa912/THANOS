@@ -11,7 +11,7 @@ import pickle
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--data_dir', default='data', help="Directory containing the dataset")
+parser.add_argument('--data_dir', default='Data/Pickle File', help="Directory containing the dataset")
 
 
 
@@ -44,7 +44,7 @@ def create_vocab():
 if __name__ == '__main__':
     args = parser.parse_args()
     vocab_to_index = create_vocab()
-    save_dict_to_json(vocab_to_index, 'data/vocab_to_index.json')
+    save_dict_to_json(vocab_to_index, 'Data/vocab_to_index.json')
 
 
     print("### Vocab building and indexing done ###")
