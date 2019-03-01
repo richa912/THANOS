@@ -7,6 +7,8 @@ Data explanation is as following:
 1. Yelp review dataset (raw_150k.csv) consisting of 150k reviews is in path Data/Yelp Raw Data.
 2. Text review column (Data/Input Data) from raw_150k.csv is used to create parse trees (Data/Binary Tree Output) using the jar file in the path Data/Binary Tree Jar File. The jar file is created using Stanford tree parser with some NLP preprocessing tasks.
 3. Binary tree output is used to create 3 pickle files (Data/Pickle File) named yelp_unk150k.pkl, yelp_parsedtree150k and vocab.pkl.
+
+
 a. yelp_parsedtree150k consits of parsed trees for the reviews.
 b. yelp_unk150k.pkl consists of list of tokens for each repective tree. The token list consist of the words in the tree in sequential order. the words with liss than 5 frequency in the vocab list of the dataset is replace by 'unk' token. 
 For example : ( ( ( ( i ( ( excepted ( a lot ) ) ( from ( this movie ) ) ) ) , ) and ) ( it ( did deliver ) ) ) . )
