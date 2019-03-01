@@ -25,7 +25,7 @@ Open the jupyter notebook and run all the cells of python notebook creating_trai
 %run build_vocab.py --data_dir Data/Pickle File (from jupyter notebook)
 %run train.py --data_dir Data --model_dir experiments/base_model (from jupyter notebook)
 ```
-How to execute the model
+**How to execute the model**
    1) ``` Open the jupyter notebook and run all the cells of python notebook creating_train_test_dev_files.ipynb. ```
    2) ``` %run build_vocab.py --data_dir Data/Pickle File (from jupyter notebook) ```
    3) ```%run train.py --data_dir Data --model_dir experiments/base_model (from jupyter notebook)```
