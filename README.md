@@ -19,7 +19,7 @@ After preparing the tree, token , and vocab file we are ready to feed this data 
 
 2. python notebook run_model.ipynb consists of commands to create the vocab json file using python file build_vocab.py and train the model using python file train.py. The commands are as below:
 
-**How to execute the model**
+**_How to execute the model_**
 ``` 
 Open the jupyter notebook and run all the cells of python notebook creating_train_test_dev_files.ipynb.
 %run build_vocab.py --data_dir Data/Pickle File (from jupyter notebook)
